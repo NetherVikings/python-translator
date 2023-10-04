@@ -23,7 +23,7 @@ destination_language_label = tk.Label(root, text="Select destination language:")
 destination_language_label.pack()
 destination_language_var = tk.StringVar(root)
 destination_language_var.set('en')  # default language
-language_dropdown = tk.OptionMenu(root, destination_language_var, 'en', 'es', 'fr', 'de', 'ja', 'ko', 'zh-CN')
+language_dropdown = tk.OptionMenu(root, destination_language_var, 'en', 'es', 'fr', 'de', 'jp', 'ko', 'zh-CN')
 language_dropdown.pack()
 
 # Translate button
